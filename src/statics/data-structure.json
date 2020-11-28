@@ -1,0 +1,40 @@
+{
+    "usuarios":{
+        "USUARIOID1":{
+            "nombre":"Medardo",
+            "email":"medpazord2010@gmail.com",
+            "online":true
+        },
+        "USUARIOID2":{
+            "nombre":"Fabian",
+            "email":"fabianmerino@gmail.com",
+            "online":true
+        }
+    },
+    "chats":{
+        "USUARIOID1":{
+            "USUARIOID2":{
+                "MENSAJEID1":{
+                    "texto":"Hola como estas?",
+                    "de":"ellos"
+                },
+                "MENSAJEID2":{
+                    "texto":"Bien gracias, como estas?",
+                    "de":"yo"
+                }
+            }
+        },
+        "USUARIOID2":{
+            "USUARIOID1":{
+                "MENSAJEID1":{
+                    "texto":"Hola como estas?",
+                    "de":"yo"
+                },
+                "MENSAJEID2":{
+                    "texto":"Bien gracias, como estas?",
+                    "de":"ellos"
+                }
+            }
+        }
+    }
+}
